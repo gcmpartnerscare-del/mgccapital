@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-shadow: 0 0.5px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: "Mona Sans", "IBM Plex Sans", Arial, sans-serif;
+}
+
+.input {
+  @apply w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-600;
+}
+
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
