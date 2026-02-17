@@ -10,7 +10,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
-// Step 1: Create a QueryClient instance
+// Step 1: Create a QueryClient instance.
 const queryClient = new QueryClient();
 
 // Step 2: Wrap your app with QueryClientProvider
