@@ -32,7 +32,7 @@ const ResidencyCitizenship = () => {
       <WhoWeServe
           data={servicesData.privateClientSolutions}
           elementName="privateClients"
-          title="Visa & Migration Consulting"
+          title="Migration Consulting"
           subtitle="Tailored Services for Global Mobility"
         />
       {/* <ResidencyCitizenshipTypes /> */}
