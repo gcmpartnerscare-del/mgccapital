@@ -14,6 +14,11 @@ const contactInfo = [
     title: "Email",
     lines: ["wecare@gcmpartners.net"], //inquiries@gcmpartners.net //partners@gcmpartners.net",
   },
+  {
+    icon: MapPin,
+    title: "Global Offices",
+    lines: ["Suite B4-338, HFP Eastline, Lekki, Lagos"],
+  },
 ];
 
 const steps = [
@@ -68,10 +73,13 @@ const ProgramRegister = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://formspree.io/f/xovllgdj", {
+    const res = await fetch("https://formspree.io/f/xkogdrgd", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
+      body: JSON.stringify({
+        ...formData,
+        to: "wecare@gcmpartners.net",
+      }),
     });
 
     if (res.ok) {

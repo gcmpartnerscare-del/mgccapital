@@ -16,16 +16,16 @@ const contactInfo = [
     // lines: ["wecare@gcmpartners.net", "inquiries@gcmpartners.net"],
     lines: ["wecare@gcmpartners.net"],
   },
-  // {
-  //   icon: MapPin,
-  //   title: "Global Offices",
-  //   lines: ["Dubai, London, St. Kitts, Lagos"],
-  // },
+  {
+    icon: MapPin,
+    title: "Global Offices",
+    lines: ["Suite B4-338, HFP Eastline, Lekki, Lagos"],
+  },
   // {
   //   icon: Clock,
   //   title: "Official Hours",
   //   lines: ["Mon – Fri: 9:00 AM – 6:00 PM", "Sat – Sun: By Appointment"],
-  // },
+  // }
 ];
 
 const ProgramConsultationForm = ({ category }) => {
@@ -43,8 +43,8 @@ const ProgramConsultationForm = ({ category }) => {
       category === "CBI"
         ? "Citizenship Programs"
         : category === "RBI"
-        ? "Residency Programs"
-        : "",
+          ? "Residency Programs"
+          : "",
     message: "",
     preferredDate: "",
   });
@@ -63,6 +63,7 @@ const ProgramConsultationForm = ({ category }) => {
 
     const submissionData = {
       ...formData,
+      to: "wecare@gcmpartners.net",
       enquirySubject: subjectLine,
     };
 
@@ -83,8 +84,8 @@ const ProgramConsultationForm = ({ category }) => {
             category === "CBI"
               ? "Citizenship Programs"
               : category === "RBI"
-              ? "Residency Programs"
-              : "",
+                ? "Residency Programs"
+                : "",
           message: "",
           preferredDate: "",
         });

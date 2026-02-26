@@ -24,7 +24,7 @@ const PageHeader = ({ title, subtitle, bgImage, breadcrumb }) => {
     setStatus({ loading: true, success: null, error: null });
 
     try {
-      const res = await fetch("https://formspree.io/f/mgvzzgka", {
+      const res = await fetch("https://formspree.io/f/mpqjblbo", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
