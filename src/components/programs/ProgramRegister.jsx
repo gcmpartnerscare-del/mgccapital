@@ -121,7 +121,7 @@ const ProgramRegister = () => {
           </h3>
           <p className="mb-8">
             Find Your Ideal Mobility Pathway with GCM partners, Let us know your
-            investment goals, your qualifications, budget, timeframe,
+             goals, your qualifications, budget, timeframe,
             expectations etc, and a consultant will reach out to you within 24
             hours.
           </p>
