@@ -14,11 +14,11 @@ const contactInfo = [
     title: "Email",
     lines: ["wecare@gcmpartners.net"],
   }, //inquires@gcmpartners.net
-  // {
-  //   icon: MapPin,
-  //   title: "Global Offices",
-  //   lines: ["Dubai, London, St. Kitts, Lagos"],
-  // },
+  {
+    icon: MapPin,
+    title: "Global Offices",
+    lines: ["Suite B4-338, HFP Eastline, Lekki, Lagos"],
+  },
   // {
   //   icon: Clock,
   //   title: "Official Hours",
