@@ -162,6 +162,11 @@ const navItems = [
     icon: <Headphones size={16} />,
     path: "/contact",
   },
+  {
+    title: "FAQs",
+    icon: <Headphones size={16} />,
+    path: "/faqs",
+  },
 ];
 
 const socialLinks = [

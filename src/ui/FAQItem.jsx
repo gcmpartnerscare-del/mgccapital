@@ -4,6 +4,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function FAQItem({ faq, index }) {
   const [isOpen, setIsOpen] = useState(false);
+  const answerIsList = Array.isArray(faq.answer);
 
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
@@ -53,7 +54,17 @@ export default function FAQItem({ faq, index }) {
         animate={isOpen ? "visible" : "hidden"}
         className="overflow-hidden"
       >
-        <div className="p-4 pt-0 text-gray-600">{faq.answer}</div>
+        <div className="p-4 pt-0 text-gray-600">
+          {answerIsList ? (
+            <ul className="list-disc pl-5 space-y-1">
+              {faq.answer.map((item, itemIndex) => (
+                <li key={`${faq.id}-${itemIndex}`}>{item}</li>
+              ))}
+            </ul>
+          ) : (
+            faq.answer
+          )}
+        </div>
       </motion.div>
     </motion.div>
   );

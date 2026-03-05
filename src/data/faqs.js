@@ -2,6 +2,290 @@ export const faqs = {
   general: [
     {
       id: 1,
+      question: "What is GCM Partners and what does the brand stand for?",
+      answer: "Global Citizenship and Migration (GCM Partners) is a pan-African consulting firm specialising in second citizenship, residency-by-investment, and strategic migration support. The brand represents legal global mobility, long-term wealth access, and empowering African families with international opportunities."
+    },
+    {
+      id: 2,
+      question: "What problem is GCM solving for Africans?",
+      answer: "GCM addresses “passport poverty” — limited mobility, visa restrictions, and restricted access to global education, healthcare, and business environments — through structured, lawful migration pathways."
+    },
+    {
+      id: 3,
+      question: "What makes GCM unique in the global citizenship space?",
+      answer: "GCM combines African market insight with global migration expertise, integrating citizenship services with policy advocacy, migration education, and digital mobility solutions for holistic client support."
+    },
+    {
+      id: 4,
+      question: "Who does GCM primarily serve?",
+      answer: "African professionals, entrepreneurs, high-net-worth individuals, and diaspora families seeking global access, family relocation, investment security, and generational mobility planning."
+    },
+    {
+      id: 5,
+      question: "What values guide GCM’s operations?",
+      answer: "Transparency, legality, empowerment, African relevance, global best practice, and a strong commitment to client dignity and success."
+    },
+    {
+      id: 6,
+      question: "What is the difference between second citizenship and residency?",
+      answer: "Residency grants the legal right to live and work in a country without full political rights. Citizenship provides a passport, full national rights, and long-term legal security."
+    },
+    {
+      id: 7,
+      question: "What countries does GCM cover for second citizenship or residency?",
+      answer: "GCM provides access to programmes offering visa-free or facilitated travel to over 180 countries, including the UK, EU Schengen Area, Canada, China, UAE, and the United States."
+    },
+    {
+      id: 8,
+      question: "What are the main products and services offered by GCM?",
+      answer: [
+        "RootsPass - Citizenship by ancestry and lineage",
+        "Birthright Advantage - Citizenship for children born in jus soli countries",
+        "Homecoming Passport - Diaspora reconnection citizenship pathways",
+        "Work-from-Anywhere Pass - Residency for remote professionals",
+        "Talent Without Borders - Fast-track skilled migration routes",
+        "BizLaunch Residency - Business-based residency and startup visas",
+        "Legacy Citizenship - Investment-linked second citizenship",
+        "GlobalAccess Residency - Long-term residency with citizenship pathways",
+        "Golden Years Residency - Retirement residency solutions",
+        "GlobePass - Short-term global travel facilitation",
+        "VisaSure - Visa readiness and advisory services",
+        "Migration Education & Policy Advisory"
+      ]
+    },
+    {
+      id: 9,
+      question: "How can a client start the process with GCM?",
+      answer: "Clients begin with a digital eligibility assessment or direct consultation. GCM conducts free pre-checks, onboarding, and assigns a dedicated migration case officer."
+    },
+    {
+      id: 10,
+      question: "How does GCM ensure a stress-free process for clients?",
+      answer: "GCM provides end-to-end concierge support including documentation, government processing, accommodation, tax IDs, bank setup, relocation coordination, and post-arrival integration assistance — all digitally tracked."
+    },
+    {
+      id: 11,
+      question: "How does GCM contribute to Africa’s global migration future?",
+      answer: "Through research, media engagement, policy advocacy, and participation in international migration forums, GCM champions fair mobility frameworks for Africans worldwide."
+    },
+  ],
+  Citizenship: [
+    {
+      id: 12,
+      question: "What is the Citizenship program?",
+      answer: "Citizenship Program allows individuals to legally acquire a second citizenship and passport by investing in a country’s economy—typically through real estate, donation, or business."
+    },
+    {
+      id: 13,
+      question: "Which countries offer Citizenship programs?",
+      answer: "Countries like St. Kitts & Nevis, Antigua & Barbuda, Dominica, Grenada, Vanuatu, and Turkey offer recognized Citizenship programs supported by governments."
+    },
+    {
+      id: 14,
+      question: "How long does it take to obtain citizenship?",
+      answer: "Most Citizenship programs take between 3 to 6 months, depending on the country, due diligence processing, and document completeness."
+    },
+    {
+      id: 15,
+      question: "Can my family be included in a Citizenship application?",
+      answer: "Yes. Most Citizenship programs allow spouses, children, and sometimes even parents or siblings to be included in the same application."
+    },
+    {
+      id: 16,
+      question: "Do I need to live in the country to keep my citizenship?",
+      answer: "No. Most Citizenship programs do not have residency requirements before or after obtaining the passport."
+    },
+    {
+      id: 17,
+      question: "What are the investment options?",
+      answer: "Options typically include government donations, real estate investment, or business development contributions. We help you choose the best fit."
+    },
+    {
+      id: 18,
+      question: "Is Citizenship a safe Program?",
+      answer: "Yes, when guided professionally. We work with government-accredited legal and real estate partners to ensure your investment is secure and compliant."
+    },
+    {
+      id: 19,
+      question: "Will I lose my Nigerian citizenship?",
+      answer: "Nigeria allows dual citizenship. Acquiring a second passport through Citizenship does not require renouncing your Nigerian nationality."
+    },
+  ],
+  Residency: [
+    {
+      id: 20,
+      question: "What is the Residency Program?",
+      answer: "Residency allows individuals to obtain legal residency status in a foreign country by making a qualifying investment such as real estate, bonds, or business development."
+    },
+    {
+      id: 21,
+      question: "Which countries offer Residency programs?",
+      answer: "Popular countries offering Residency include Portugal, Greece, Spain, Malta, Latvia, and Mauritius. Each has unique benefits and investment criteria."
+    },
+    {
+      id: 22,
+      question: "How long does Residency processing take?",
+      answer: "Most Residency programs take 2 to 6 months, depending on investment type, documentation, and background checks."
+    },
+    {
+      id: 23,
+      question: "Is Residency the same as citizenship?",
+      answer: "No. Residency grants residency rights and sometimes leads to citizenship after meeting stay or naturalization requirements."
+    },
+    {
+      id: 24,
+      question: "Do Residency programs allow travel to the EU?",
+      answer: "Yes. Residency in EU countries often includes visa-free travel within the Schengen Zone."
+    },
+    {
+      id: 25,
+      question: "Can I rent out real estate I buy for Residency?",
+      answer: "Yes. Most programs allow you to generate rental income or resale after a minimum holding period."
+    },
+    {
+      id: 26,
+      question: "Do I need to relocate permanently?",
+      answer: "Not necessarily. Some programs require minimal physical presence or none at all. Others require partial stay."
+    },
+    {
+      id: 27,
+      question: "Can my spouse and children be included?",
+      answer: "Yes, most Residency programs include your immediate family members under one application process."
+    },
+  ],
+  about: [
+    {
+      id: 28,
+      question: "When was GCM Partners founded?",
+      answer: "GCM Partners was established to serve the increasing demand for ethical, legal, and personalized global migration solutions in Nigeria and Africa."
+    },
+    {
+      id: 29,
+      question: "What makes GCM Partners different?",
+      answer: "We combine local cultural knowledge with global expertise, offering honest, human-centered consulting for migration, investment, and relocation."
+    },
+    {
+      id: 30,
+      question: "Do you only serve Nigerian clients?",
+      answer: "No. While our headquarters is in Nigeria, we serve clients across Africa and the diaspora seeking secure global migration opportunities."
+    },
+    {
+      id: 31,
+      question: "What industries do your clients come from?",
+      answer: "We serve professionals, entrepreneurs, investors, families, and government stakeholders from various industries including real estate, tech, finance, and education."
+    },
+    {
+      id: 32,
+      question: "Do you have any international partners?",
+      answer: "Yes, we partner with law firms, real estate developers, financial institutions, and accredited agents in each program country."
+    },
+    {
+      id: 33,
+      question: "What is your company’s mission?",
+      answer: "Our mission is to provide ethical, affordable access to global opportunities in migration, investment, and citizenship."
+    },
+    {
+      id: 34,
+      question: "How can I join the GCM Partners team?",
+      answer: "We're always open to passionate professionals. Visit our Careers page or submit an inquiry through our Contact section."
+    },
+    {
+      id: 35,
+      question: "Is GCM Partners a government agency?",
+      answer: "No. GCM Partners is a private consultancy that works with government-authorized partners in destination countries."
+    },
+  ],
+  services: [
+    {
+      id: 36,
+      question: "What services does GCM Partners offer?",
+      answer: "Our core services include Second Citizenship, Residency Permit Application, legal migration consulting, real estate acquisition, and global relocation guidance."
+    },
+    {
+      id: 37,
+      question: "Do you handle all paperwork and documentation?",
+      answer: "Yes. We manage the entire process including document collection, legal compliance, due diligence, and government application submission."
+    },
+    {
+      id: 38,
+      question: "Do you offer real estate investment options?",
+      answer: "Yes. We guide clients through property selection, investment structuring, and ownership transfer in accordance with program regulations."
+    },
+    {
+      id: 39,
+      question: "Is there a consultation fee?",
+      answer: "We offer free discovery sessions. Detailed program evaluations or legal documentation may require a one-time consultation fee."
+    },
+    {
+      id: 40,
+      question: "Do you provide family packages?",
+      answer: "Absolutely. Most of our programs are structured to accommodate spouses, children, and sometimes extended family."
+    },
+    {
+      id: 41,
+      question: "Can you help me decide which country or program is best?",
+      answer: "Yes. Our consultants assess your goals, budget, and timeline to recommend the most suitable countries and investment paths."
+    },
+    {
+      id: 42,
+      question: "Do you provide post-arrival support?",
+      answer: "Yes. We assist with relocation, school admissions, bank accounts, health coverage, and cultural orientation."
+    },
+    {
+      id: 43,
+      question: "Can you help organizations or government bodies?",
+      answer: "Yes. We consult for institutions, government programs, and diaspora engagement projects seeking legal migration solutions."
+    },
+  ],
+  blogs: [
+    {
+      id: 44,
+      question: "What topics are covered on your blog?",
+      answer: "We cover global migration trends, program comparisons, investment opportunities, legal updates, and success stories from real clients."
+    },
+    {
+      id: 45,
+      question: "How often is the blog updated?",
+      answer: "We update our blog monthly with new articles, expert opinions, and migration insights to keep you informed."
+    },
+    {
+      id: 46,
+      question: "Can I contribute or suggest a blog topic?",
+      answer: "Yes, we're open to guest articles and feedback. Use our Contact form to reach out with suggestions or collaborations."
+    },
+    {
+      id: 47,
+      question: "Are your blog articles original?",
+      answer: "All content is original, researched, and written by our team of experts. We also include real data and case studies."
+    },
+    {
+      id: 48,
+      question: "Do blog posts get shared on social media?",
+      answer: "Yes. Every article is promoted on our official LinkedIn, Facebook, Twitter, and Instagram accounts for wider reach."
+    },
+    {
+      id: 49,
+      question: "Do blogs include downloadable resources?",
+      answer: "Some articles include brochures, program summaries, or PDF guides you can download for offline review."
+    },
+    {
+      id: 50,
+      question: "How can I get notified about new posts?",
+      answer: "Subscribe to our newsletter or follow us on social platforms to stay updated with the latest blog content."
+    },
+    {
+      id: 51,
+      question: "Are blog articles available in multiple languages?",
+      answer: "Select articles are translated into French, Arabic, Hausa, Igbo, and Yoruba to serve our multilingual audience."
+    },
+  ],
+};
+
+
+/*
+
+ {
+      id: 1,
       question: "What does GCM Partners specialize in?",
       answer: "We specialize in global citizenship, migration consulting, and investment-based relocation solutions tailored for Nigerians and Africans seeking international opportunities."
     },
@@ -40,215 +324,5 @@ export const faqs = {
       question: "Can I track the status of my application?",
       answer: "Yes, we offer regular updates and access to client service agents for real-time status updates, progress tracking, and document support."
     },
-  ],
-  Citizenship: [
-    {
-      id: 9,
-      question: "What is the Citizenship program?",
-      answer: "Citizenship Program allows individuals to legally acquire a second citizenship and passport by investing in a country’s economy—typically through real estate, donation, or business."
-    },
-    {
-      id: 10,
-      question: "Which countries offer Citizenship programs?",
-      answer: "Countries like St. Kitts & Nevis, Antigua & Barbuda, Dominica, Grenada, Vanuatu, and Turkey offer recognized Citizenship programs supported by governments."
-    },
-    {
-      id: 11,
-      question: "How long does it take to obtain citizenship?",
-      answer: "Most Citizenship programs take between 3 to 6 months, depending on the country, due diligence processing, and document completeness."
-    },
-    {
-      id: 12,
-      question: "Can my family be included in a Citizenship application?",
-      answer: "Yes. Most Citizenship programs allow spouses, children, and sometimes even parents or siblings to be included in the same application."
-    },
-    {
-      id: 13,
-      question: "Do I need to live in the country to keep my citizenship?",
-      answer: "No. Most Citizenship programs do not have residency requirements before or after obtaining the passport."
-    },
-    {
-      id: 14,
-      question: "What are the investment options?",
-      answer: "Options typically include government donations, real estate investment, or business development contributions. We help you choose the best fit."
-    },
-    {
-      id: 15,
-      question: "Is Citizenship a safe Program?",
-      answer: "Yes, when guided professionally. We work with government-accredited legal and real estate partners to ensure your investment is secure and compliant."
-    },
-    {
-      id: 16,
-      question: "Will I lose my Nigerian citizenship?",
-      answer: "Nigeria allows dual citizenship. Acquiring a second passport through Citizenship does not require renouncing your Nigerian nationality."
-    },
-  ],
-  Residency: [
-    {
-      id: 17,
-      question: "What is the Residency Program?",
-      answer: "Residency allows individuals to obtain legal residency status in a foreign country by making a qualifying investment such as real estate, bonds, or business development."
-    },
-    {
-      id: 18,
-      question: "Which countries offer Residency programs?",
-      answer: "Popular countries offering Residency include Portugal, Greece, Spain, Malta, Latvia, and Mauritius. Each has unique benefits and investment criteria."
-    },
-    {
-      id: 19,
-      question: "How long does Residency processing take?",
-      answer: "Most Residency programs take 2 to 6 months, depending on investment type, documentation, and background checks."
-    },
-    {
-      id: 20,
-      question: "Is Residency the same as citizenship?",
-      answer: "No. Residency grants residency rights and sometimes leads to citizenship after meeting stay or naturalization requirements."
-    },
-    {
-      id: 21,
-      question: "Do Residency programs allow travel to the EU?",
-      answer: "Yes. Residency in EU countries often includes visa-free travel within the Schengen Zone."
-    },
-    {
-      id: 22,
-      question: "Can I rent out real estate I buy for Residency?",
-      answer: "Yes. Most programs allow you to generate rental income or resale after a minimum holding period."
-    },
-    {
-      id: 23,
-      question: "Do I need to relocate permanently?",
-      answer: "Not necessarily. Some programs require minimal physical presence or none at all. Others require partial stay."
-    },
-    {
-      id: 24,
-      question: "Can my spouse and children be included?",
-      answer: "Yes, most Residency programs include your immediate family members under one application process."
-    },
-  ],
-  about: [
-    {
-      id: 25,
-      question: "When was GCM Partners founded?",
-      answer: "GCM Partners was established to serve the increasing demand for ethical, legal, and personalized global migration solutions in Nigeria and Africa."
-    },
-    {
-      id: 26,
-      question: "What makes GCM Partners different?",
-      answer: "We combine local cultural knowledge with global expertise, offering honest, human-centered consulting for migration, investment, and relocation."
-    },
-    {
-      id: 27,
-      question: "Do you only serve Nigerian clients?",
-      answer: "No. While our headquarters is in Nigeria, we serve clients across Africa and the diaspora seeking secure global migration opportunities."
-    },
-    {
-      id: 28,
-      question: "What industries do your clients come from?",
-      answer: "We serve professionals, entrepreneurs, investors, families, and government stakeholders from various industries including real estate, tech, finance, and education."
-    },
-    {
-      id: 29,
-      question: "Do you have any international partners?",
-      answer: "Yes, we partner with law firms, real estate developers, financial institutions, and accredited agents in each program country."
-    },
-    {
-      id: 30,
-      question: "What is your company’s mission?",
-      answer: "Our mission is to provide ethical, affordable access to global opportunities in migration, investment, and citizenship."
-    },
-    {
-      id: 31,
-      question: "How can I join the GCM Partners team?",
-      answer: "We're always open to passionate professionals. Visit our Careers page or submit an inquiry through our Contact section."
-    },
-    {
-      id: 32,
-      question: "Is GCM Partners a government agency?",
-      answer: "No. GCM Partners is a private consultancy that works with government-authorized partners in destination countries."
-    },
-  ],
-  services: [
-    {
-      id: 33,
-      question: "What services does GCM Partners offer?",
-      answer: "Our core services include Second Citizenship, Residency Permit Application, legal migration consulting, real estate acquisition, and global relocation guidance."
-    },
-    {
-      id: 34,
-      question: "Do you handle all paperwork and documentation?",
-      answer: "Yes. We manage the entire process including document collection, legal compliance, due diligence, and government application submission."
-    },
-    {
-      id: 35,
-      question: "Do you offer real estate investment options?",
-      answer: "Yes. We guide clients through property selection, investment structuring, and ownership transfer in accordance with program regulations."
-    },
-    {
-      id: 36,
-      question: "Is there a consultation fee?",
-      answer: "We offer free discovery sessions. Detailed program evaluations or legal documentation may require a one-time consultation fee."
-    },
-    {
-      id: 37,
-      question: "Do you provide family packages?",
-      answer: "Absolutely. Most of our programs are structured to accommodate spouses, children, and sometimes extended family."
-    },
-    {
-      id: 38,
-      question: "Can you help me decide which country or program is best?",
-      answer: "Yes. Our consultants assess your goals, budget, and timeline to recommend the most suitable countries and investment paths."
-    },
-    {
-      id: 39,
-      question: "Do you provide post-arrival support?",
-      answer: "Yes. We assist with relocation, school admissions, bank accounts, health coverage, and cultural orientation."
-    },
-    {
-      id: 40,
-      question: "Can you help organizations or government bodies?",
-      answer: "Yes. We consult for institutions, government programs, and diaspora engagement projects seeking legal migration solutions."
-    },
-  ],
-  blogs: [
-    {
-      id: 41,
-      question: "What topics are covered on your blog?",
-      answer: "We cover global migration trends, program comparisons, investment opportunities, legal updates, and success stories from real clients."
-    },
-    {
-      id: 42,
-      question: "How often is the blog updated?",
-      answer: "We update our blog monthly with new articles, expert opinions, and migration insights to keep you informed."
-    },
-    {
-      id: 43,
-      question: "Can I contribute or suggest a blog topic?",
-      answer: "Yes, we're open to guest articles and feedback. Use our Contact form to reach out with suggestions or collaborations."
-    },
-    {
-      id: 44,
-      question: "Are your blog articles original?",
-      answer: "All content is original, researched, and written by our team of experts. We also include real data and case studies."
-    },
-    {
-      id: 45,
-      question: "Do blog posts get shared on social media?",
-      answer: "Yes. Every article is promoted on our official LinkedIn, Facebook, Twitter, and Instagram accounts for wider reach."
-    },
-    {
-      id: 46,
-      question: "Do blogs include downloadable resources?",
-      answer: "Some articles include brochures, program summaries, or PDF guides you can download for offline review."
-    },
-    {
-      id: 47,
-      question: "How can I get notified about new posts?",
-      answer: "Subscribe to our newsletter or follow us on social platforms to stay updated with the latest blog content."
-    },
-    {
-      id: 48,
-      question: "Are blog articles available in multiple languages?",
-      answer: "Select articles are translated into French, Arabic, Hausa, Igbo, and Yoruba to serve our multilingual audience."
-    },
-  ],
-};
+
+ */
