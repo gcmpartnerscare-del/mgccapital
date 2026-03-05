@@ -61,7 +61,7 @@ const WhoWeServe = ({
           to={"/resources#consultation"}
           className="w-full md:w-max text-center px-6 py-3 bg-primary-600 text-white rounded-full flex items-center justify-center hover:bg-primary-700 transition"
         >
-          {title} Consultation
+          {title}
         </Link>
 
         <Link

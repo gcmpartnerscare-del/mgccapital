@@ -5,11 +5,11 @@ const servicesData = {
     //   imgSrc: "/images/passportPlanning.jpg",
       ttle: "Residence and Citizenship",
       servDesc:
-        "We use our creativity, expertise, and global knowledge to create the ultimate lifelong value for our clients through the acquisition of one or more alternative residences and/or citizenships.",
+        "We use our expertise, and global knowledge to create the ultimate lifelong value for our clients through the acquisition of one or more alternative residences and/or citizenships.",
     },
     {
       imgSrc: "https://img.freepik.com/premium-photo/excited-black-woman-graduation-diploma-celebration-university-education-with-success-event-graduate-certificate-happy-student-person-outdoor-with-future-academic-achievement_590464-205144.jpg?uid=R110204670&ga=GA1.1.302447274.1684498652&w=740&q=80",
-      ttle: "Education",
+      ttle: "Education Pathway",
       servDesc:
         "Tailored education planning for premium global institutions, supported by the right residency and citizenship programs.",
     },
@@ -31,12 +31,6 @@ const servicesData = {
       ttle: "Citizenship by Descent",
       servDesc:
         "Reclaim citizenship in qualifying countries through proven ancestral links.",
-    },
-    {
-      imgSrc: "https://img.freepik.com/free-photo/couple-filling-spreadsheets-laptop-by-entering-data-from-report-papers_482257-125526.jpg?uid=R110204670&ga=GA1.1.302447274.1684498652&semt=ais_hybrid&w=740&q=80",
-      ttle: "Tax and Civic Advisory Services",
-      servDesc:
-        "Cross-border tax optimization, legal compliance, and residency planning.",
     },
   ],
   governmentAdvisoryServices: [

@@ -16,7 +16,7 @@ const contactInfo = [
   }, //inquires@gcmpartners.net
   {
     icon: MapPin,
-    title: "Global Offices",
+    title: "Office Address",
     lines: ["Suite B4-338, HFP Eastline, Lekki, Lagos"],
   },
   // {
