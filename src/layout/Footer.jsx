@@ -18,7 +18,7 @@ import NewsletterSubscriptionForm from "../components/forms/NewsletterSubscripti
 
 const socialLinks = [
   {
-    href: "https://web.facebook.com/profile.php?id=61580418931891",
+    href: "https://web.facebook.com/GCMPartnersOfficial",
     icon: Facebook,
   },
   {
