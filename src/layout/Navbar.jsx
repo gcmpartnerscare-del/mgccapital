@@ -261,7 +261,7 @@ const Navbar = () => {
         <div className="flex gap-4 items-center w-full justify-between ml-auto lg:w-max">
           <div className="flex gap-2">
             <a
-              href="https://web.facebook.com/profile.php?id=61580418931891"
+              href="https://web.facebook.com/GCMPartnersOfficial"
               target="_blank"
               rel="noopener noreferrer"
               className=""
